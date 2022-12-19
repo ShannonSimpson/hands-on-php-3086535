@@ -10,7 +10,7 @@
 	<main>
 		<?php
 		if (isset($_POST['submit'])) {
-			$num = (int)$_POST('numer');
+			$num = (int)$_POST('number');
 			if (is_int($num) && $num > 0) {
 				echo '<h3>Great! You have submitted a postitive integer!';
 			} else {
